@@ -1,0 +1,290 @@
+section {
+  padding: 100px 10%;
+}
+
+.contain {
+  padding: 3% 7%;
+}
+
+/************ Sidebar *************/
+.sidebar{
+  right: 0;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+  gap: 1rem;
+}
+
+/************ Home ***************/
+#home{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.left-content{
+  background: rgb(221, 255, 255);
+  padding: 1.5rem;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  grid-column: 1 / span 2;
+}
+
+
+.btn{
+  margin-top: 1rem;
+}
+
+.btn-home{
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  padding: 8px 10px;
+  font-weight: 500;
+}
+
+.btn-home i{
+  font-size: 1.2rem;
+  color: brown;
+  padding-right: 5px;
+}
+
+.content{
+  margin: 2rem 0;
+}
+
+.content h1{
+  font-size: 4rem;
+}
+
+.home-content{
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.home-img img{
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.chef{
+  border-radius: 60%;
+  width: 7rem;
+}
+
+.chef-name{
+  margin-left: 8rem;
+  margin-top: 3rem;
+}
+
+/************ Category ***************/
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading h1{
+  font-size: 3rem;
+}
+
+.category-btn{
+  border: 2px solid black;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  padding: 0px 10px;
+  font-weight: 500;
+  height: 2rem;
+  margin-top: 1.5rem;
+}
+
+.category-content{
+  margin: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-type{
+  background-image: linear-gradient(180deg,white,whitesmoke);
+  width: 15rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.category-type img{
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.category-type p{
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+/************** Recipes Start **************/
+.recipe-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-content{
+  margin: 2rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-type{
+  /* background-color: whitesmoke; */
+  background-image: linear-gradient(180deg , white , rgb(227, 255, 255));
+  width: 23rem;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+.recipe-type img{
+  width: 20rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+
+.recipe-name h4{
+  margin-top: 0.5rem;
+}
+
+.recipe-icons{
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: start;
+}
+
+.recipe-icons p{
+  font-size: 1.3rem;
+}
+
+.recipe-icons p i{
+  font-size: 1.7rem;
+  margin-right: 0.2rem;
+}
+
+/**************** Everyone ****************/
+#everyone{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10rem;
+}
+
+.right img{
+  height: 25rem;
+}
+
+.right {
+  background-image: linear-gradient(180deg,white,rgb(225, 255, 255));
+}
+
+.left h1{
+  margin: 2rem 1rem 0 1rem ;
+  font-size: 3rem;
+}
+
+.left p{
+  margin: 2rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.left button{
+  margin: 1.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+}
+
+/************** Subscribe *************/
+.subscribe-content{
+  background: url(images/subs.jpg) no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.subscribe-content h1{
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+
+.subscribe-content div{
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.top{
+  margin-top: 1rem;
+}
+
+.bottom{
+  margin-bottom: 1rem;
+}
+
+.text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  margin: 2rem 0 5rem 0;
+  padding: 1rem;
+  width: 22rem;
+  border-radius: 10px;
+}
+
+.text input{
+  align-items: center;
+  margin-bottom: 0;
+  border: none;
+}
+
+.text button{
+  padding: 0.5rem  1rem;
+  border-radius: 10px;
+}
+
+/************** Footer *************/
+footer{
+  background: #000;
+  color: white;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p{
+  margin-bottom: 0;
+}
+
+
+
+
